@@ -1,0 +1,103 @@
+Dr. Appointment Project :
+https://youtu.be/oY24fxdTKi8?si=m0NzEAxKzh3ZFWmg
+
+1 : Step : ----- File : -  Dr-Appointement System
+    Node : - npm -init
+             --server.js
+              
+         D:\Project\Dr-Appointment-System>npm init -y
+	 Wrote to D:\Project\Dr-Appointment-System\package.json:
+
+	{
+  	"name": "dr-appointment-system",
+        "version": "1.0.0",
+  	"description": "",
+  	"main": "index.js",
+  	"scripts": {
+   	 "test": "echo \"Error: no test specified\" && exit 1"
+ 	 },
+  	"keywords": [],
+ 	 "author": "",
+ 	 "license": "ISC"
+	}
+//-----------Express server----------------//npmjs.com
+D:\Project\Dr-Appointment-System>npm i express morgan colors dotenv nodemon mongoose jsonwebtoken bcrypt js
+
+
+		
+added 190 packages, and audited 191 packages in 1m
+
+16 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+npm notice
+npm notice New minor version of npm available! 9.6.7 -> 9.8.1
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v9.8.1
+npm notice Run npm install -g npm@9.8.1 to update!
+npm notice
+
+D:\Project\Dr-Appointment-System>
+
+
+//--------------------------------------MVC Pattern-----------
+2 : Step : -----Dr-Appointment System : includes ->package.json ->server.js ->package-lock.json
+ ->config
+ ->controllers
+ ->middlewares
+ ->models
+ ->node_modules :- install by npm
+ ->routes
+
+3 : Step : ----- npx create-react-app client
+       Starting the development server...
+
+One of your dependencies, babel-preset-react-app, is importing the
+"@babel/plugin-proposal-private-property-in-object" package without
+declaring it in its dependencies. This is currently working because
+"@babel/plugin-proposal-private-property-in-object" is already in your
+node_modules folder for unrelated reasons, but it may break at any time.
+
+babel-preset-react-app is part of the create-react-app project, which
+is not maintianed anymore. It is thus unlikely that this bug will
+ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+your devDependencies to work around this error. This will make this message
+go away.
+
+
+
+Compiled successfully!
+
+You can now view client in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.16.4.11:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+
+
+//---------------in client directory-------------
+
+PS D:\Project\Dr-Appointment-System\client> npm i reace buildDeps
+t-router-dom axios antd:-AntDesign.com
+
+added 74 packages, and audited 1584 packages in 2m
+
+246 packages are looking for funding
+  run `npm fund` for details
+
+6 high severity vulnerabilities
+
+To address all issues (including breaking changes), ru
+n:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+
+
+3 : Step :-//--------Routing and Login register form
+Register.js me AntDesign form ka use kiya hai.................
